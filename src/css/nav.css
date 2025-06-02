@@ -6,22 +6,23 @@
 
   --color-nav-text: var(--color-text);
   --color-nav-hover: var(--color-secondary);
+  --nav-height: clamp(4rem, 8vh, 4rem);
   
 }
 
-nav{
+nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 4rem;
+  height: var(--nav-height);
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-nav-bg)
+  background-color: var(--color-nav-bg);
+  z-index: 1000; /* increased to ensure nav is always on top */
 }
-
 .menu {
   width: fit-content;
   margin: 0 auto; 

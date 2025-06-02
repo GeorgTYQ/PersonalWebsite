@@ -1,11 +1,13 @@
 :root{
   --font-size :clamp(0.5rem, 1vw, 1rem);
   --icon-size:clamp(0.8rem, 2vw, 1.5rem);
+  --color-card-menu-bg: rgba(158, 161, 137,0.8) !important;
 }
 
 .container {
   display: flex;
   height: 100%;
+  margin-top: var(--nav-height);
   border-radius: 5rem;
   flex-direction: row;
   flex-wrap: wrap;
@@ -40,6 +42,8 @@
   display: flex;
   align-items: flex-end;
 
+  color: var(--color-text);
+
 
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
@@ -72,12 +76,11 @@
   flex-direction: row-reverse;
   align-items: center;
   
-  font-size: var(--icon-size)
+  font-size: var(--icon-size);
   
 }
 .card_grid .icon_list{
-  
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--color-card-menu-bg);
   border-radius: 0.5rem;
   padding: 5px 10px;
   margin: 10px 15px;
@@ -106,7 +109,7 @@
 
 .card_grid .title_list{
   font-size: var(--font-size);
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: var(--color-card-menu-bg);
 
   
   border-radius: 2rem;
@@ -116,7 +119,7 @@
 /* Icon Design */
 .icon_list i {
   font-size: 24px;
-  color: #000000;
+  color: var(--color-text);
   transition: transform 0.3s ease, color 0.3s ease;
   margin: 0 8px;
   cursor: pointer;
@@ -125,5 +128,5 @@
 
 .icon_list i:hover {
   transform: scale(1.2);
-  color: #959595; /* Instagram pink */
+  color: var(--color-nav-hover);
 }

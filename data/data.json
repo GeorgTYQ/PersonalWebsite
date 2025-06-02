@@ -39,6 +39,65 @@
           "web_url": "#"
         }
       ]
+    },
+        {
+      "id": 1,
+      "project": "ProfileCard",
+      "title": "Vibe Space",
+      "img_src": "/projectImg/gfs-vibespace.png",
+      "icons": [
+        {
+          "icon_class_list": ["uil", "uil-github-alt"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-globe"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-instagram"],
+          "web_url": "#"
+        }
+      ]
+    },    {
+      "id": 1,
+      "project": "ProfileCard",
+      "title": "Vibe Space",
+      "img_src": "/projectImg/gfs-vibespace.png",
+      "icons": [
+        {
+          "icon_class_list": ["uil", "uil-github-alt"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-globe"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-instagram"],
+          "web_url": "#"
+        }
+      ]
+    },
+        {
+      "id": 1,
+      "project": "ProfileCard",
+      "title": "Vibe Space",
+      "img_src": "/projectImg/gfs-vibespace.png",
+      "icons": [
+        {
+          "icon_class_list": ["uil", "uil-github-alt"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-globe"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-instagram"],
+          "web_url": "#"
+        }
+      ]
     }
   ]
 }

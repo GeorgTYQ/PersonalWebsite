@@ -27,15 +27,36 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html{
   margin: 0;
   place-items: center;
   width: 100dvw;
   height: 100dvh;
 }
-#app{
-  width: 100dvw;
-  height: 100dvh;
+body{
+  width: 100%;
+  height: 100%;
+  
 }
+
+#app{
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  margin-top: var(--nav-height);
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+
 

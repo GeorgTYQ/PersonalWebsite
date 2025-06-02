@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+:root {
+  --black-color: #101117;
+  --arrowdown-size: 120px;
+}
+
+canvas {
+    margin-top: var(--nav-height);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+h1 {
+  font-size: 160px;
+  color: var(--color-primary);
+}
+
+.mouse-effect {
+  opacity: 0;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.circle {
+  position: absolute;
+  background-color: var(--black-color);
+  width: 10px;
+  height: 10px;
+  left: 0px;
+  top: 0px;
+  border-radius: 100%;
+  z-index: -111111;
+  user-select: none;
+  pointer-events: none;
+  transition: all 0.05s;
+}
+
+.main-txt {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: -4px;
+  z-index: 10;
+  transition: opacity 2s ease-in-out;
+}
+#scrollHint {
+  position: absolute;
+  font-size: var(--arrowdown-size);
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-primary);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+.fade-in {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 2s ease-in;
+}
+
+#scrollHint:hover {
+  opacity: 0.7;
+}
