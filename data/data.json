@@ -1,0 +1,44 @@
+{
+  "profile_cards": [
+    {
+      "id": 1,
+      "project": "ProfileCard",
+      "title": "Vibe Space",
+      "img_src": "/projectImg/gfs-vibespace.png",
+      "icons": [
+        {
+          "icon_class_list": ["uil", "uil-github-alt"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-globe"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-instagram"],
+          "web_url": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "project": "ProfileCard",
+      "title": "Samantha J.",
+      "img_src": "/projectImg/website2.jpeg",
+      "icons": [
+        {
+          "icon_class_list": ["uil", "uil-linkedin"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-twitter"],
+          "web_url": "#"
+        },
+        {
+          "icon_class_list": ["uil", "uil-envelope"],
+          "web_url": "#"
+        }
+      ]
+    }
+  ]
+}

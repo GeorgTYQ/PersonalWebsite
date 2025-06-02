@@ -1,0 +1,41 @@
+:root {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --color-primary: #CCD5AE;
+  --color-secondary: #D4A373;
+  --color-bg: #FEFAE0;
+  --color-surface: #FAEDCD;
+  --color-muted: #E9EDC9;
+
+  --color-text: #3E2C1C;
+  --color-text-light: #FBF9F1;
+
+  --color-success: #A4C686;
+  --color-warning: #FFB627;
+  --color-error: #D45D5D;
+  --color-info: #8DA9C4;
+
+  --color-nav-bg:hsl(75, 10%, 40%);
+  --color-nav-menu:hsl(60, 12%, 60%);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  place-items: center;
+  width: 100dvw;
+  height: 100dvh;
+}
+#app{
+  width: 100dvw;
+  height: 100dvh;
+}
+
